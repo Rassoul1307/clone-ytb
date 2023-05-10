@@ -1,0 +1,112 @@
+.logo{
+    width: 150px;
+}
+.form-control{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-color: gray;
+}
+.fa-solid.fa-magnifying-glass{
+    color: black;
+}
+.btn.btn-outline-success{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(221, 221, 221, 0.58);
+    border-color: gray;
+}
+.btn.btn-outline-success:hover{
+    background-color: rgba(211, 211, 211, 0.689);
+}
+.fa-solid{
+    width: 50px;
+    font-size: 20px;
+}
+.card-img-top {
+    position: relative;
+    overflow: hidden;
+  }
+  .rech{
+    width: 50%;
+  }
+  
+@media screen and (max-width:860px) {
+  .rech{
+    max-width: 25%;
+  }
+}
+@media screen and (max-width:573px){
+  .icon-all{
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width:414px){
+  .latbar{
+    display: none;
+  }
+  
+}
+.card-img-top iframe {
+  width: 100%;
+    height: auto;
+    transition: transform .5s;
+  }
+  
+  .card-img-top:hover iframe {
+    transform: scale(1.1);
+  }
+  
+  .duration {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: .8rem;
+  }
+  
+  .author {
+    
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  .col .btn{
+    background-color: rgb(239, 237, 237);
+  }
+  .offcanvas.offcanvas-start{
+    width: 300px;
+  }
+  .nav-item.active{
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgba(207, 207, 207, 0.199);
+  }
+  .latbar{
+    height: 450px;
+  }
+  .nav-item{
+    height: 70px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+  .nav-item:hover{
+    background-color: rgba(207, 207, 207, 0.493);
+  }
+  
